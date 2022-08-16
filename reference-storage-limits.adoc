@@ -22,7 +22,7 @@ Cloud Volumes ONTAP には、安定した運用を実現するために、スト
 
 Cloud Volumes ONTAP システムの最大システム容量はライセンスで決まります。最大システム容量には、ディスクベースのストレージに加えて、データの階層化に使用されるオブジェクトストレージが含まれます。ネットアップはこの制限を超えてもサポートしていません。
 
-Azure では、ディスク制限により、ディスクのみを使用して 368 TiB の容量制限に達することができません。このような場合は、で 368 TiB の容量制限に達することができます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。を参照してください <<Capacity and disk limits by Azure VM size,Azure VM サイズ別の容量とディスク制限>> 詳細：
+Azure では、ディスク制限により、ディスクのみを使用して 368 TiB の容量制限に達することができません。このような場合は、で 368 TiB の容量制限に達することができます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。を参照してください  and disk limits by Azure VM size,Azure VM サイズ別の容量とディスク制限 詳細：
 
 [cols="30,70"]
 |===
@@ -101,7 +101,7 @@ Cloud Volumes ONTAP 9.4 では、すべての EC2 インスタンスタイプが
 | 最大ディスクサイズ | 32TiB 
 
 
-| すべてのアグリゲートの最大データディスク数 ^3^ | VM のサイズによって異なります。 <<Capacity and disk limits by Azure VM size,以下を参照してください>>。 
+| すべてのアグリゲートの最大データディスク数 ^3^ | VM のサイズによって異なります。  and disk limits by Azure VM size,以下を参照してください。 
 
 
 | * RAID グループ * | アグリゲートあたりの最大数 | 1. 
