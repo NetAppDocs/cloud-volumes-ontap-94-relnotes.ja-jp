@@ -168,9 +168,7 @@
   <block id="794df3791a8c800841516007427a2aa3" category="cell">使用許諾</block>
   <block id="643a529396d04bbbe61c8daa70456163" category="cell">最大システム容量（ディスク + オブジェクトストレージ）</block>
   <block id="768560d8110ed230b7fde848941af107" category="cell">2TiB （ Explore ではデータ階層化はサポートされません）</block>
-  <block id="2f9882645b2c32820ad085240bacb763" category="section-title">HA の場合、ライセンスの容量制限はノード単位か、 HA ペア全体に適用されるか</block>
   <block id="44007958b04e5e15a25a3ca1ee98abeb" category="paragraph">容量制限は HA ペア全体の容量制限です。ノード単位ではありません。たとえば、 Premium ライセンスを使用する場合、両方のノード間で最大 368 TiB の容量を確保できます。</block>
-  <block id="fc9a388cd18c69244f22554de6f0d544" category="section-title">AWS の HA システムでは、ミラーリングされたデータは容量制限にカウントされますか。</block>
   <block id="8644b747d80d3144a35c2f7a3eb37c2e" category="paragraph">いいえ、できません。AWS HA ペアのデータは、障害発生時にデータを利用できるように、ノード間で同期的にミラーされます。たとえば、ノード A で 8TiB ディスクを購入した場合、 Cloud Manager は、ミラーリングされたデータに使用する 8 TiB のディスクをノード B にも割り当てます。16TiB の容量がプロビジョニングされましたが、ライセンスの上限には 8TiB しかカウントされません。</block>
   <block id="ebe518a26c9dc6650c5bca58faf1f194" category="section-title">AWS の Cloud Volumes ONTAP のアグリゲートとディスクの制限</block>
   <block id="52f3db77c94f0a37314073296154912f" category="paragraph">Cloud Volumes ONTAP 9.4 では、すべての EC2 インスタンスタイプが、 EBS ストレージだけを使用するか、 EBS ストレージと S3 への階層化（シングルノードと HA の両方）を使用して 368 TiB の容量制限に到達できます。</block>
@@ -223,9 +221,7 @@
   <block id="bb49543449782c0f1b87b3ef8f49a6be" category="cell">* ディスクのみ *</block>
   <block id="e3185eb0708df4883935910ebf26f8db" category="cell">* ディスク + データ階層化 *</block>
   <block id="caa04f6c0c961ead7ba1a22b65f58bb8" category="cell">480TiB</block>
-  <block id="cfd3d7471481ba0d3a23470409857d68" category="cell">992TiB</block>
   <block id="f94f9afeacfc431720c782db2e1d8809" category="cell">1 ライセンスあたり 368 TiB</block>
-  <block id="9010e525ec80d0fdea3d56191f64ce39" category="cell">2 PiB</block>
   <block id="41a0b1e6c6d31716c7d7b603ce6a4936" category="section-title">論理ストレージの制限</block>
   <block id="609158be2075d0d9724b333b2cf217be" category="cell">論理ストレージ</block>
   <block id="73a985be794327e4a037c64d0184774a" category="cell">* Storage Virtual Machine （ SVM ） *</block>
@@ -280,7 +276,6 @@
   <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">ONTAP ソフトウェアの既知の問題は、で確認できます<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>。</block>
   <block id="7d9b2b78909e33445be41b4ae9f344ee" category="summary">このリリースノートでは、 Cloud Volumes ONTAP 9.4 の新機能、制限事項、および既知の問題について説明します。</block>
   <block id="a7c547126254140f4fce2f237d58af44" category="doc">Cloud Volumes ONTAP 9.4 リリースノート</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
   <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">リリースノートのホーム</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
@@ -293,4 +288,5 @@
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP クラウド</block>
   <block id="62703524dbb4d20326585184b2149d4d" category="admonition">その他の機能と機能拡張は、 Cloud Manager の最新バージョンで導入されました。を参照してください<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
 </blocks>
