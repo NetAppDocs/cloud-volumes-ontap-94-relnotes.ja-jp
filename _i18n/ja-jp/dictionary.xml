@@ -113,10 +113,6 @@
   <block id="602b56cc8e56a5daf341c7f6b5489c76" category="list-text">Cloud Volumes ONTAP 暗号化が有効になっているシステムでは、 LUN の移動はサポートされません。</block>
   <block id="ad36e2b4d23122ce393299ac3f5e4d18" category="list-text">Cloud Volumes ONTAP は、作成に失敗したアグリゲートの暗号化キーをキー管理ツールに送信します。</block>
   <block id="e6cd7708d37be14be1ec14b31818d9c9" category="paragraph">キー管理ツールからキーを手動で削除する必要があります。</block>
-  <block id="2d03060cc88d48d8c65d3a01864614ad" category="section-title">Microsoft Azure の既知の制限事項は以下のとおりです</block>
-  <block id="d0e7588890233fc627c7bcaab1e75386" category="paragraph">以下に記載する既知の制限事項は、 Azure の Cloud Volumes ONTAP に影響します。</block>
-  <block id="e4f5b6f59db7bfa0e08c02262ddbd654" category="section-title">従量課金制は、 CSP パートナーが利用できません</block>
-  <block id="f2ff5834d93c258f0fc4ad6cf6a17942" category="paragraph">マイクロソフトクラウドソリューションプロバイダー (CSP) パートナーの場合、従量課金制のサブスクリプションは CSP パートナーに提供されないため、 Cloud Volumes ONTAP Explore 、 Standard 、または Premium を展開することはできません。ライセンスを購入し、 Cloud Volumes ONTAP BYOL を導入する必要があります。</block>
   <block id="4cab73a24f20e30e14e8ec52694aef82" category="summary">Cloud Volumes ONTAP の新リリースには、新機能、拡張機能、およびバグ修正が含まれています。</block>
   <block id="51725349a7337e60469d7cccc2aa4017" category="doc">Cloud Volumes ONTAP 9.4 の新機能</block>
   <block id="bc6fd8b4572c0d9cd26584917775df84" category="paragraph">Cloud Volumes ONTAP 9.4 には、いくつかの新機能と機能拡張が含まれています</block>
@@ -290,4 +286,6 @@
   <block id="62703524dbb4d20326585184b2149d4d" category="admonition">その他の機能と機能拡張は、 Cloud Manager の最新バージョンで導入されました。を参照してください<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> を参照してください。</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
+  <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">HA の場合、ライセンスの容量制限はノード単位か、 HA ペア全体に適用されるか</block>
+  <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">AWS の HA システムでは、ミラーリングされたデータは容量制限にカウントされますか。</block>
 </blocks>

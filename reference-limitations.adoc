@@ -126,15 +126,3 @@ EBS ボリュームを Cloud Volumes ONTAP インスタンスから接続解除�
 キー管理ツールからキーを手動で削除する必要があります。
 
 
-
-
-
-== Microsoft Azure の既知の制限事項は以下のとおりです
-
-以下に記載する既知の制限事項は、 Azure の Cloud Volumes ONTAP に影響します。
-
-
-
-=== 従量課金制は、 CSP パートナーが利用できません
-
-マイクロソフトクラウドソリューションプロバイダー (CSP) パートナーの場合、従量課金制のサブスクリプションは CSP パートナーに提供されないため、 Cloud Volumes ONTAP Explore 、 Standard 、または Premium を展開することはできません。ライセンスを購入し、 Cloud Volumes ONTAP BYOL を導入する必要があります。
