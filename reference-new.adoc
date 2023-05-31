@@ -17,7 +17,7 @@ summary: Cloud Volumes ONTAP の新リリースには、新機能、拡張機能
 Cloud Volumes ONTAP 9.4 には、いくつかの新機能と機能拡張が含まれています
 
 
-NOTE: その他の機能と機能拡張は、 Cloud Manager の最新バージョンで導入されました。を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager リリースノート"^] を参照してください。
+NOTE: その他の機能と機能拡張は、 Cloud Manager の最新バージョンで導入されました。を参照してください https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Cloud Manager リリースノート"^] を参照してください。
 
 
 
@@ -37,7 +37,7 @@ Cloud Volumes ONTAP 9.4 Premium と BYOL では、 3 つ目のオプションが
 
 ランダム読み取りで読み取りを行うと、容量階層のコールドデータブロックがホットになり、パフォーマンス階層に移動します。インデックススキャンやアンチウイルススキャンに関連するようなシーケンシャルリードで読み取られた場合、コールドデータブロックはコールド状態を維持し、パフォーマンス階層には移動しません。
 
-Cloud Manager でボリュームを作成または編集するときに、階層化ポリシーを選択できます。詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.html["Cloud Manager のドキュメント"]。
+Cloud Manager でボリュームを作成または編集するときに、階層化ポリシーを選択できます。詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html["Cloud Manager のドキュメント"]。
 
 
 
@@ -48,7 +48,7 @@ Cloud Manager でボリュームを作成または編集するときに、階層
 
 NOTE: データ階層化は、 DS3_v2 仮想マシンタイプではサポートされていません。
 
-Cloud Manager でボリュームを作成または編集するときに、階層化ポリシーを選択できます。詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.html["Cloud Manager のドキュメント"]。
+Cloud Manager でボリュームを作成または編集するときに、階層化ポリシーを選択できます。詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html["Cloud Manager のドキュメント"]。
 
 
 
