@@ -60,7 +60,7 @@ AWS では、 Cloud Volumes ONTAP を単一システムまたは HA ペアとし
 . データ階層化は、 Cloud Volumes ONTAP の Standard 、 Premium 、および BYOL でサポートされています。
 . EC2 インスタンスタイプを選択する場合は、そのインスタンスが共有インスタンスか専用インスタンスかを指定できます。
 . Cloud Volumes ONTAP Standard 、 Premium 、および BYOL で EBS SSD を使用すると、書き込みパフォーマンスが向上します。
-. AWS リージョンのサポートについては、を参照してください https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
+. AWSリージョンのサポートについては、を参照してください https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
 
 
 
@@ -102,5 +102,5 @@ Azure では、 Cloud Volumes ONTAP をシングルノードシステムとし�
 . データ階層化を有効にすると、システムの容量制限は同じままになります。容量の制限には、ディスクとオブジェクトストレージの両方が含まれます。
 . データ階層化は、 DS3_v2 仮想マシンタイプではサポートされていません。
 . 拡張書き込みパフォーマンスは、 Azure Premium Storage ディスクを使用している場合は有効になりますが、 DS3_v2 仮想マシンタイプを使用している場合は有効になりません。
-. Azure リージョンのサポートについては、を参照してください https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
+. Azureリージョンのサポートについては、を参照してください https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
 

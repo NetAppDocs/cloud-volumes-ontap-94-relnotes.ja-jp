@@ -31,7 +31,6 @@
   <block id="9de28fbf6817cd511eb799f9575b611d" category="list-text">EC2 インスタンスタイプを選択する場合は、そのインスタンスが共有インスタンスか専用インスタンスかを指定できます。</block>
   <block id="9904b0ede3a9bd5892bd94e6884380ae" category="list-text">Cloud Volumes ONTAP Standard 、 Premium 、および BYOL で EBS SSD を使用すると、書き込みパフォーマンスが向上します。</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volume グローバルリージョン</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="list-text">AWS リージョンのサポートについては、を参照してください<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="2544021bbaa4bc6eadfddbb17edf7811" category="section-title">Cloud Volumes ONTAP for Azure</block>
   <block id="0880fd0b2e173edf438b6f7e4d92af32" category="paragraph">Azure では、 Cloud Volumes ONTAP をシングルノードシステムとして導入できます。</block>
   <block id="5fbb3d7412f89cff55389171f83d7684" category="cell">仮想マシンのタイプ</block>
@@ -43,7 +42,6 @@
   <block id="50bb513ae39b44421d182e4072a83998" category="cell">標準 HDD 管理ディスク、標準 SSD 管理ディスク、およびプレミアム SSD 管理ディスク（ディスクあたり最大 32 TiB ）</block>
   <block id="d448e5e37b82dc9cd3ec041340cd7253" category="list-text">データ階層化は、 DS3_v2 仮想マシンタイプではサポートされていません。</block>
   <block id="d6b23a41a85f490ae75b43cb4095d8c0" category="list-text">拡張書き込みパフォーマンスは、 Azure Premium Storage ディスクを使用している場合は有効になりますが、 DS3_v2 仮想マシンタイプを使用している場合は有効になりません。</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Azure リージョンのサポートについては、を参照してください<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -288,4 +286,6 @@
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="a61a85744fee28d1b209cdce2108ab2b" category="sidebar">Cloud Volumes ONTAP 9.4リリースノート</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="list-text">AWSリージョンのサポートについては、を参照してください<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Azureリージョンのサポートについては、を参照してください<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
 </blocks>
